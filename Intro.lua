@@ -13,7 +13,7 @@ local IntroGUI = script:WaitForChild("IntroGUI")
 local LaunchInStudio = script:WaitForChild("LaunchInStudio")
 local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
 local PlayerScripts = Players.LocalPlayer:WaitForChild("PlayerScripts")
-	local PlayerModule = PlayerScripts:WaitForChild("PlayerModule")
+ local PlayerModule = PlayerScripts:WaitForChild("PlayerModule")
 
 local ArrivingTeleportGui = TeleportService:GetArrivingTeleportGui()
 local PlayerControls = require(PlayerModule):GetControls()
