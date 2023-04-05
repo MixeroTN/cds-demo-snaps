@@ -23,9 +23,9 @@ function environmentCheck()
 end
 
 function preloadAsync(...)
-    for _, object in ipairs({...}) do
+    for _, table in ipairs({...}) do
         pcall(function()
-            ContentProvider:PreloadAsync(object)
+            ContentProvider:PreloadAsync(table)
         end)
     end
 end
