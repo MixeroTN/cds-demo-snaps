@@ -6,9 +6,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
 local Intro = script.Parent:WaitForChild("Intro")
-    local LaunchInStudio = Intro:WaitForChild("LaunchInStudio")
+ local LaunchInStudio = Intro:WaitForChild("LaunchInStudio")
 local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
-    local IntroGUI = PlayerGui:WaitForChild("IntroGUI")
+ local IntroGUI = PlayerGui:WaitForChild("IntroGUI")
 local L_White = Lighting:WaitForChild("White")
 
 local toPreload = {
